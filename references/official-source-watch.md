@@ -18,6 +18,7 @@ Never use cracked software sites, password-sharing posts, reposted manuals, leak
 - Release notes: https://mysoftware.dnv.com/knowledge-centre/phast-and-safeti/whatsnew/
 - Help library: https://mysoftware.dnv.com/knowledge-centre/phast-and-safeti/help-library/
 - User manuals index: https://mysoftware.dnv.com/knowledge-centre/phast-and-safeti/user-manuals/
+- Official webinars: https://mysoftware.dnv.com/knowledge-centre/phast-and-safeti/webinars/
 - Phast/Safeti FAQ: https://www.dnv.com/software/services/plant/phast-safeti-FAQ/
 - Safeti product page: https://www.dnv.com/services/safeti/
 - QRA software overview: https://www.dnv.com/software/services/plant/quantitative-risk-analysis/
@@ -38,6 +39,22 @@ As checked on 2026-05-10:
 - The FAQ distinguishes free-field modelling from CFD: where obstacles or undulating terrain matter, CFD is the preferred solution. If a project excludes 3D/CFD, document the free-field simplification.
 - The Safeti product page states that Safeti provides LSIR contours, F-N curves, PLL, and risk ranking points as standard risk metrics.
 - The FAQ confirms Phast/Safeti can model hydrogen, CO2, nitrogen, ammonia, LNG/LPG, toxic/asphyxiation releases, in-building releases, GIS imports/exports, and that DNV uses verification, validation, and sensitivity testing for the software.
+
+## 8.7-And-Earlier Official Webinar Topics
+
+Use official webinars as training and workflow evidence, not as a replacement for 8.7 release notes, local help, or software-native exports. Relevant 8.7-and-earlier DNV webinar topics include:
+
+- Phast 8.7 live demo: CFD modelling for jet fires, 13-Jul-2022.
+- Large study guidance for Safeti, 19-May-2022.
+- Energy transition initiatives for hydrogen in Phast, Safeti and KFX, 30-Mar-2022.
+- Facility siting and occupied building risk analysis using Phast and Safeti, 22-Sep-2021.
+- Materials and mixtures setup in Phast and Safeti, 28-Aug-2021.
+- GIS integration for Phast and Safeti, 14-Jul-2021.
+- Ignition source modelling in Safeti and impact on results, 17-Jun-2020.
+- Occupied buildings risk assessment using Phast and Safeti, 29-Jan-2020.
+- Range and application of Phast and Safeti explosion models for facility siting, 03-Dec-2018.
+- Introduction to QRA in oil, gas and chemical process industries, 14-Jun-2017.
+- Explosion modelling in onshore facilities, 22-Jun-2016.
 
 ## How To Apply 8.7-Locked Updates
 
