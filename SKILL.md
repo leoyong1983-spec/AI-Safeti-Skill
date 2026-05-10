@@ -17,6 +17,7 @@ Use this skill for hydrogen or liquid-hydrogen consequence and QRA work where PH
 - When data are missing, create a pending-information register. Do not silently invent population, ignition sources, equipment counts, isolation reliability, offsite receptors, or weather distributions.
 - For public-risk standards, separate offsite/public compliance from onsite/conditional research QRA. Do not claim full GB 36894 or equivalent public-risk compliance unless offsite receptors and population are modeled.
 - In the current simplified research baseline, do not include 3D obstruction modeling unless the user explicitly asks for it. If VCE is retained without 3D obstruction, state the simplification and its review status.
+- Before updating methods, check current DNV source status and version applicability. A project locked to 8.7 may use 8.7 behavior, but the skill should still flag newer official features, changed licensing, and newer manuals as review items.
 
 ## Workflow
 
@@ -80,6 +81,7 @@ The QRA report or calculation book should include:
 
 Load only the reference needed for the task:
 
+- `references/official-source-watch.md`: official-source hierarchy, current DNV knowledge links, and version-watch rules.
 - `references/phast-safeti-87-notes.md`: PHAST/Safeti 8.7 parameter hierarchy, result-object checks, and software-native result discipline.
 - `references/qra-workflow-checklist.md`: end-to-end QRA audit checklist for model rebuilds and report upgrades.
 - `references/qra-register-templates.md`: reusable table schemas for scenarios, assumptions, event trees, population, and pending data.
