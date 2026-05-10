@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Safeti QRA"
+  short_description: "DNV PHAST/Safeti hydrogen QRA workflow"
+  default_prompt: "Use $ai-safeti-skill to audit and rebuild a DNV PHAST/Safeti hydrogen QRA model."
