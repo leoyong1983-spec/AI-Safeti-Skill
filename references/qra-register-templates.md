@@ -44,3 +44,13 @@
 
 | item_id | missing_information | why_it_matters | current_treatment | required_source | priority |
 |---|---|---|---|---|---|
+
+## Engineer Input Request Register
+
+| request_id | parameter_group | required_input | why_needed_for_qra | acceptable_project_source | can_use_reference | response_needed_by |
+|---|---|---|---|---|---|---|
+
+## Reference Data Register
+
+| assumption_id | parameter | reference_value_or_method | source_tier | source_url_or_doc | applicability_limit | sensitivity_case | engineer_approval_status |
+|---|---|---|---|---|---|---|---|

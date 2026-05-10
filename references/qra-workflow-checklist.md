@@ -8,6 +8,7 @@
 - Confirm weather basis: single representative weather, joint weather/wind rose, or full Safeti meteorology.
 - Confirm population basis and whether transient groups overlap in time.
 - Confirm exclusions, especially offsite population, 3D obstructions, domino effects, equipment loss, and environmental endpoints.
+- Create an input request list for missing QRA-critical parameters. For each missing item, state whether calculation can continue with a reference assumption, must be sensitivity-bounded, or must stop.
 
 ## PHAST Consequence Audit
 
@@ -27,6 +28,12 @@
 - Apply weather and direction weights. If only one weather is used, label it as a research limitation.
 - Apply receptor, building, indoor/outdoor, and vulnerability assumptions.
 - Preserve the Safeti result database or sufficient exports for audit, then export LSIR, IRPA, PLL, F-N, contours, and contribution reports.
+
+## Missing Data Discipline
+
+- Use project data first, software-native defaults second, public reference data third, and conservative screening assumptions only when explicitly labelled.
+- Do not default offsite population, occupied building resistance, ignition-source inventory, component counts, or SIS/isolation success without engineer approval.
+- Every reference value needs `assumption_id`, `source_tier`, `source_url_or_doc`, `reason_for_use`, `sensitivity_case`, and `replacement_data_required`.
 
 ## Population Logic
 
