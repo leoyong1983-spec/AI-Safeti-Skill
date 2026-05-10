@@ -17,7 +17,7 @@ Use this skill for hydrogen or liquid-hydrogen consequence and QRA work where PH
 - When data are missing, create a pending-information register. Do not silently invent population, ignition sources, equipment counts, isolation reliability, offsite receptors, or weather distributions.
 - For public-risk standards, separate offsite/public compliance from onsite/conditional research QRA. Do not claim full GB 36894 or equivalent public-risk compliance unless offsite receptors and population are modeled.
 - In the current simplified research baseline, do not include 3D obstruction modeling unless the user explicitly asks for it. If VCE is retained without 3D obstruction, state the simplification and its review status.
-- Before updating methods, check current DNV source status and version applicability. A project locked to 8.7 may use 8.7 behavior, but the skill should still flag newer official features, changed licensing, and newer manuals as review items.
+- Treat PHAST/Safeti 8.7 as the active upper-bound version unless the user explicitly approves an upgrade. Later-version material may be noted only as non-applicable context, compatibility risk, or upgrade watch item; do not import 8.71/8.9/9.x-only features into an 8.7 model workflow.
 
 ## Workflow
 
