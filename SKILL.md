@@ -16,7 +16,7 @@ Use this skill for hydrogen or liquid-hydrogen consequence and QRA work where PH
 - Do not publish or commit vendor manuals, license files, passwords, credentials, proprietary project paths, private coordinates, or confidential result tables to a shared repository.
 - When data are missing, create a pending-information register. Do not silently invent population, ignition sources, equipment counts, isolation reliability, offsite receptors, or weather distributions.
 - For public-risk standards, separate offsite/public compliance from onsite/conditional research QRA. Do not claim full GB 36894 or equivalent public-risk compliance unless offsite receptors and population are modeled.
-- In the current simplified research baseline, do not include 3D obstruction modeling unless the user explicitly asks for it. If VCE is retained without 3D obstruction, state the simplification and its review status.
+- When a project excludes 3D obstruction modeling, do not add it implicitly. If VCE is retained without 3D obstruction, state the free-field/simplified explosion basis and its review status.
 - Treat PHAST/Safeti 8.7 as the active upper-bound version unless the user explicitly approves an upgrade. Later-version material may be noted only as non-applicable context, compatibility risk, or upgrade watch item; do not import 8.71/8.9/9.x-only features into an 8.7 model workflow.
 
 ## Workflow
@@ -25,9 +25,10 @@ Use this skill for hydrogen or liquid-hydrogen consequence and QRA work where PH
 2. Audit the PHAST model hierarchy: Workspace -> Study -> Equipment -> Scenario. Confirm Study weather and Equipment material/state/inventory/location before running Scenario calculations.
 3. Run or verify PHAST consequences from native software exports. For fire radiation levels, configure the software parameter set before rerun; do not interpolate target thresholds after the fact.
 4. Build the Safeti QRA chain: release frequency -> operation factor -> direction/weather -> detection/isolation -> ignition event tree -> consequence branch -> receptors/buildings -> fatality model -> LSIR/IRPA/PLL/F-N/risk contours.
-5. Integrate population correctly: use annual person-hours for PLL/IRPA exposure, but use event-level concurrent population for F-N. Do not generate F-N directly from equivalent continuous population.
-6. Write the report around risk questions: maximum credible consequence, worst accident, dominant contribution, risk acceptability basis, uncertainty/sensitivity, and pending data needed for engineering QRA.
-7. Hand off review artifacts: model files, exported CSVs, figures, calculation tables, assumptions register, pending-information register, and an explicit list of values that are software-native versus post-processed.
+5. Confirm the analysis type: Phast-only consequence input, Safeti FERA/OBRA/QRA, or external research integration. Do not label a Phast-only calculation as Safeti QRA.
+6. Integrate population correctly: use annual person-hours for PLL/IRPA exposure, but use event-level concurrent population for F-N. Do not generate F-N directly from equivalent continuous population.
+7. Write the report around risk questions: maximum credible consequence, worst accident, dominant contribution, risk acceptability basis, uncertainty/sensitivity, and pending data needed for engineering QRA.
+8. Hand off review artifacts: model files, Safeti result database or exports, exported CSVs, figures, calculation tables, assumptions register, pending-information register, and an explicit list of values that are software-native versus post-processed.
 
 ## PHAST/Safeti Guardrails
 

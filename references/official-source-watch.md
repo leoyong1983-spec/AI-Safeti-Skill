@@ -4,7 +4,7 @@ Use this reference when updating the skill, checking PHAST/Safeti 8.7-and-earlie
 
 ## Source Hierarchy
 
-1. DNV official software pages, My DNV Software Knowledge Centre, release notes, user manuals, help library, official training, official videos, and Veracity marketplace/support pages.
+1. DNV official software pages, My DNV Software Knowledge Centre, release notes, user manuals, help library, official training, official videos, and Veracity marketplace/support pages. For model behavior in an 8.7 project, prefer 8.7-specific release notes, installed 8.7 help, installed 8.7 documentation, and software-native exports over current-version marketing pages.
 2. DNV public service pages and DNV-authored QRA/consequence-analysis articles.
 3. Government, regulator, standards body, university, or peer-reviewed material that is independent of DNV but relevant to QRA practice.
 4. Third-party tutorials or consultant notes. Use only as orientation; never treat as software authority.
@@ -32,6 +32,8 @@ As checked on 2026-05-10:
 - The DNV release-notes page lists separate Phast 8.7 and Safeti 8.7 release notes dated 02-Aug-2022, plus release notes for earlier 8.x and 7.x versions.
 - The DNV downloads page describes the 9.1+ access-key licensing system. For 8.7-and-earlier work, preserve the previous license workflow and keep license files, dongle/network setup, and activation data outside public skills and reports.
 - The DNV FAQ states that Phast is consequence modelling software, whereas Safeti is consequence and risk modelling software. Do not describe a Phast-only run as Safeti QRA.
+- The DNV FAQ lists Phast uses such as HAZOP/HAZID/PHA/LOPA consequence support, emergency planning, facility siting/layout optimisation, hazardous area classification, regulatory safety reports, and vent/flare design. Treat these as consequence-analysis applications unless Safeti risk integration is actually performed.
+- The DNV FAQ lists Safeti uses such as FERA, OBRA, QRA, risk-based design, cost-benefit analysis, and sensitivity analysis. Treat fatality individual and societal risk as the core QRA output unless the project explicitly adds environmental, asset, or financial risk.
 - The FAQ states that Safeti risk results are stored using Microsoft SQL Server. For formal handoff, preserve database/result artifacts or exports needed to reproduce LSIR, PLL, F-N and contour outputs.
 - The FAQ distinguishes free-field modelling from CFD: where obstacles or undulating terrain matter, CFD is the preferred solution. If a project excludes 3D/CFD, document the free-field simplification.
 - The Safeti product page states that Safeti provides LSIR contours, F-N curves, PLL, and risk ranking points as standard risk metrics.

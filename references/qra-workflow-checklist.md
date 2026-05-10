@@ -4,7 +4,7 @@
 
 - Confirm latest model package and reject superseded packages.
 - Confirm current layout, scenario list, source coordinates, material state, hole-size basis, and inventory basis.
-- Confirm whether the study is research QRA, engineering QRA, onsite conditional QRA, or full offsite/public QRA.
+- Confirm whether the study is Phast-only consequence analysis, Safeti FERA/OBRA/QRA, research QRA, engineering QRA, onsite conditional QRA, or full offsite/public QRA.
 - Confirm weather basis: single representative weather, joint weather/wind rose, or full Safeti meteorology.
 - Confirm population basis and whether transient groups overlap in time.
 - Confirm exclusions, especially offsite population, 3D obstructions, domino effects, equipment loss, and environmental endpoints.
@@ -26,7 +26,7 @@
 - Separate jet fire, pool fire, flash fire, VCE, DDT, and no-fatality branches.
 - Apply weather and direction weights. If only one weather is used, label it as a research limitation.
 - Apply receptor, building, indoor/outdoor, and vulnerability assumptions.
-- Export LSIR, IRPA, PLL, F-N, contours, and contribution reports.
+- Preserve the Safeti result database or sufficient exports for audit, then export LSIR, IRPA, PLL, F-N, contours, and contribution reports.
 
 ## Population Logic
 
