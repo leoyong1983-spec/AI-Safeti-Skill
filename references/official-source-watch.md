@@ -26,11 +26,13 @@ Never use cracked software sites, password-sharing posts, reposted manuals, leak
 
 ## 8.7-And-Earlier Version Watch
 
-As checked on 2026-05-10:
+As checked on 2026-05-12:
 
+- The DNV downloads page now lists Phast/Safeti 9.3 as the Latest Version with release date 11-May-2026. This is a later-version upgrade-watch item only; do not treat any 9.3 feature, installer behavior, or workflow change as available in the user's active 8.7 environment unless the user explicitly approves an upgrade.
 - The DNV downloads page lists Phast/Safeti 8.7 with release date 02-Aug-2022; for this skill, 8.7 is the active upper-bound version.
 - The DNV downloads page lists earlier Phast/Safeti versions including 8.61, 8.6, 8.4, 8.23, 8.22, 8.21, 8.2, 8.11, 8.1, 8.0, and 7.22. Versions 7.22 and earlier are marked as no longer technically supported.
-- The DNV release-notes page lists separate Phast 8.7 and Safeti 8.7 release notes dated 02-Aug-2022, plus release notes for earlier 8.x and 7.x versions.
+- The DNV release-notes page lists Phast 8.7 and Safeti 8.7 release notes dated 02-Aug-2022, plus release notes for earlier 8.x and 7.x versions. The page also states that releases prior to 9.3 remain in the PDF archives.
+- The DNV downloads and release-notes pages list KFX 7.2 as the latest KFX-EXSIM release dated 31-Mar-2026. Treat this as companion-product upgrade watch only; do not assume KFX 7.2 behavior is present in a Phast/Safeti 8.7 workflow.
 - The DNV downloads page describes the 9.1+ access-key licensing system. For 8.7-and-earlier work, preserve the previous license workflow and keep license files, dongle/network setup, and activation data outside public skills and reports.
 - The DNV FAQ states that Phast is consequence modelling software, whereas Safeti is consequence and risk modelling software. Do not describe a Phast-only run as Safeti QRA.
 - The DNV FAQ lists Phast uses such as HAZOP/HAZID/PHA/LOPA consequence support, emergency planning, facility siting/layout optimisation, hazardous area classification, regulatory safety reports, and vent/flare design. Treat these as consequence-analysis applications unless Safeti risk integration is actually performed.
@@ -39,6 +41,13 @@ As checked on 2026-05-10:
 - The FAQ distinguishes free-field modelling from CFD: where obstacles or undulating terrain matter, CFD is the preferred solution. If a project excludes 3D/CFD, document the free-field simplification.
 - The Safeti product page states that Safeti provides LSIR contours, F-N curves, PLL, and risk ranking points as standard risk metrics.
 - The FAQ confirms Phast/Safeti can model hydrogen, CO2, nitrogen, ammonia, LNG/LPG, toxic/asphyxiation releases, in-building releases, GIS imports/exports, and that DNV uses verification, validation, and sensitivity testing for the software.
+
+## Later Official Material Watch
+
+Later DNV official pages and webinars can be useful for upgrade awareness, but must not be converted into 8.7 instructions unless the same behavior is confirmed in 8.7 release notes, installed 8.7 help, or software-native 8.7 exports.
+
+- Phast/Safeti 9.3, 9.11, 9.1, 9.0, 8.9, and 8.71 release material is non-applicable to active 8.7 modelling except as compatibility, upgrade-risk, or future-upgrade context.
+- DNV official post-8.7 webinars such as hydrogen modelling, Phast-to-Safeti transition, Phast API, in-building modelling, and Phast 9.x overviews are training or upgrade-watch material. Use them only as prompts for checking 8.7 documentation, not as standalone authority for 8.7 reports.
 
 ## 8.7-And-Earlier Official Webinar Topics
 
