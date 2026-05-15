@@ -26,9 +26,10 @@ Never use cracked software sites, password-sharing posts, reposted manuals, leak
 
 ## 8.7-And-Earlier Version Watch
 
-As checked on 2026-05-12:
+As checked on 2026-05-16:
 
 - The DNV downloads page now lists Phast/Safeti 9.3 as the Latest Version with release date 11-May-2026. This is a later-version upgrade-watch item only; do not treat any 9.3 feature, installer behavior, or workflow change as available in the user's active 8.7 environment unless the user explicitly approves an upgrade.
+- The DNV downloads page and release-notes page may not present the same "latest" state at the same time: the downloads page lists Phast/Safeti 9.3 as Latest Version, while the release-notes page still lists Phast and Safeti 9.11 release notes in the visible product tables and says releases prior to 9.3 are in the PDF archives. Treat this as a portal/version-watch inconsistency, not as evidence for any 8.7 modelling behavior.
 - The DNV downloads page lists Phast/Safeti 8.7 with release date 02-Aug-2022; for this skill, 8.7 is the active upper-bound version.
 - The DNV downloads page lists earlier Phast/Safeti versions including 8.61, 8.6, 8.4, 8.23, 8.22, 8.21, 8.2, 8.11, 8.1, 8.0, and 7.22. Versions 7.22 and earlier are marked as no longer technically supported.
 - The DNV release-notes page lists Phast 8.7 and Safeti 8.7 release notes dated 02-Aug-2022, plus release notes for earlier 8.x and 7.x versions. The page also states that releases prior to 9.3 remain in the PDF archives.
@@ -49,6 +50,8 @@ Later DNV official pages and webinars can be useful for upgrade awareness, but m
 
 - Phast/Safeti 9.3, 9.11, 9.1, 9.0, 8.9, and 8.71 release material is non-applicable to active 8.7 modelling except as compatibility, upgrade-risk, or future-upgrade context.
 - The current DNV Safeti product page says detailed CFD result import into Safeti risk analysis using `*.asc` files is available from Safeti 9.1 or later. Do not recommend this as an 8.7 executable workflow; for 8.7, keep CFD-to-QRA interfaces limited to workflows confirmed in 8.7 documentation or explicitly approved external/research integration.
+- The Knowledge Centre currently promotes "Introduction to new GIS (BETA) in Phast and Safeti 9.3". Treat this as 9.3 upgrade-watch material only; do not use 9.3 beta GIS behavior to justify 8.7 GIS setup, import/export, or reporting steps.
+- Post-8.7 technical documentation such as the February 2025 "Validation and verification of Phast CFD - comparative analysis with Phast, KFX and tests" can support general validation awareness, but does not by itself establish a feature or workflow as available in Phast/Safeti 8.7.
 - DNV official post-8.7 webinars such as hydrogen modelling, Phast-to-Safeti transition, Phast API, in-building modelling, and Phast 9.x overviews are training or upgrade-watch material. Use them only as prompts for checking 8.7 documentation, not as standalone authority for 8.7 reports.
 
 ## 8.7-And-Earlier Official Webinar Topics
