@@ -21,6 +21,7 @@ Never use cracked software sites, password-sharing posts, reposted manuals, leak
 - Official webinars: https://mysoftware.dnv.com/knowledge-centre/phast-and-safeti/webinars/
 - Phast/Safeti FAQ: https://www.dnv.com/software/services/plant/phast-safeti-FAQ/
 - Safeti product page: https://www.dnv.com/services/safeti/
+- DNV hydrogen consequence and risk modelling page: https://www.dnv.com/software/services/plant/hydrogen-consequence-and-risk/
 - QRA software overview: https://www.dnv.com/software/services/plant/quantitative-risk-analysis/
 - Phast product page: https://www.dnv.com/software/services/plant/consequence-analysis-phast.html
 
@@ -43,6 +44,8 @@ As checked on 2026-05-16:
 - The FAQ distinguishes free-field modelling from CFD: where obstacles or undulating terrain matter, CFD is the preferred solution. If a project excludes 3D/CFD, document the free-field simplification.
 - The Safeti product page states that Safeti provides LSIR contours, F-N curves, PLL, and risk ranking points as standard risk metrics.
 - The FAQ confirms Phast/Safeti can model hydrogen, CO2, nitrogen, ammonia, LNG/LPG, toxic/asphyxiation releases, in-building releases, GIS imports/exports, and that DNV uses verification, validation, and sensitivity testing for the software.
+- The DNV hydrogen consequence and risk modelling page states that the Miller jet fire model was introduced in Phast/Safeti 8.6 and became the default for hydrogen vapour releases in 8.9. For 8.7, do not assume default model selection; verify and record the selected hydrogen jet-fire model.
+- The DNV hydrogen page also identifies hydrogen-specific QRA considerations including frequency, ignition probabilities, event-tree analysis, HyRAM-style hydrogen frequency data, and delayed ignition outcomes up to detonation. Treat this as DNV public guidance that supports input prompts and sensitivity planning, not as a replacement for project-approved data or 8.7 software-native settings.
 
 ## Later Official Material Watch
 

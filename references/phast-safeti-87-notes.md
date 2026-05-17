@@ -17,7 +17,7 @@ Run consequence calculations from valid Scenario nodes. A clean Scenario result 
 
 - Use Hydrogen as the material and verify cryogenic settings for liquid hydrogen.
 - Release height and release angle strongly affect hydrogen dispersion and jet fire geometry. Check plan view and side view.
-- Miller jet fire is the preferred hydrogen-aware jet fire model when available and accepted by the project.
+- Miller jet fire is the preferred hydrogen-aware jet fire model when available and accepted by the project. DNV public hydrogen guidance states that Miller was introduced in Phast/Safeti 8.6 but became the default for hydrogen vapour releases only in 8.9, so an 8.7 review must explicitly check and record the selected jet-fire model rather than assume the default.
 - For vapor clouds, keep 50% LFL and LFL conceptually separate. 50% LFL can support warning or spacing review; LFL is normally the flash-fire fatality boundary.
 
 ## 8.7 Release-Note Checks

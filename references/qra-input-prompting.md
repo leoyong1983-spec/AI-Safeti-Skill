@@ -35,6 +35,7 @@ Useful public source links:
 
 - DNV Phast/Safeti FAQ: https://www.dnv.com/software/services/plant/phast-safeti-FAQ/
 - DNV Phast/Safeti downloads and release notes: https://mysoftware.dnv.com/knowledge-centre/phast-and-safeti/softwaredownloads/
+- DNV hydrogen consequence and risk modelling: https://www.dnv.com/software/services/plant/hydrogen-consequence-and-risk/
 - Sandia HyRAM+ overview: https://energy.sandia.gov/programs/sustainable-transportation/hydrogen/hydrogen-safety-codes-and-standards/hyram/
 - Sandia HyRAM technical reference publications: https://www.sandia.gov/research/publications/details/hydrogen-risk-assessment-models-hyram-v-3-1-technical-reference-manual-2021-05-01/
 - IOGP RADD ignition probabilities: https://www.iogp.org/bookstore/product-tag/434-06/
