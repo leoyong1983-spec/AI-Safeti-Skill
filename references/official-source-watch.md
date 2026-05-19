@@ -15,6 +15,7 @@ Never use cracked software sites, password-sharing posts, reposted manuals, leak
 
 - Knowledge Centre: https://mysoftware.dnv.com/knowledge-centre/phast-and-safeti/
 - Downloads and licensing notes: https://mysoftware.dnv.com/knowledge-centre/phast-and-safeti/softwaredownloads/
+- License support: https://mysoftware.dnv.com/knowledge-centre/phast-and-safeti/license-support/
 - Release notes: https://mysoftware.dnv.com/knowledge-centre/phast-and-safeti/whatsnew/
 - Help library: https://mysoftware.dnv.com/knowledge-centre/phast-and-safeti/help-library/
 - User manuals index: https://mysoftware.dnv.com/knowledge-centre/phast-and-safeti/user-manuals/
@@ -27,9 +28,9 @@ Never use cracked software sites, password-sharing posts, reposted manuals, leak
 
 ## 8.7-And-Earlier Version Watch
 
-As checked on 2026-05-16:
+As checked on 2026-05-20:
 
-- The DNV downloads page now lists Phast/Safeti 9.3 as the Latest Version with release date 11-May-2026. This is a later-version upgrade-watch item only; do not treat any 9.3 feature, installer behavior, or workflow change as available in the user's active 8.7 environment unless the user explicitly approves an upgrade.
+- The DNV downloads page now lists Phast/Safeti 9.3 as the Latest Version with release date 12-May-2026. This is a later-version upgrade-watch item only; do not treat any 9.3 feature, installer behavior, or workflow change as available in the user's active 8.7 environment unless the user explicitly approves an upgrade.
 - The DNV downloads page and release-notes page may not present the same "latest" state at the same time: the downloads page lists Phast/Safeti 9.3 as Latest Version, while the release-notes page still lists Phast and Safeti 9.11 release notes in the visible product tables and says releases prior to 9.3 are in the PDF archives. Treat this as a portal/version-watch inconsistency, not as evidence for any 8.7 modelling behavior.
 - The DNV downloads page lists Phast/Safeti 8.7 with release date 02-Aug-2022; for this skill, 8.7 is the active upper-bound version.
 - The DNV downloads page lists earlier Phast/Safeti versions including 8.61, 8.6, 8.4, 8.23, 8.22, 8.21, 8.2, 8.11, 8.1, 8.0, and 7.22. Versions 7.22 and earlier are marked as no longer technically supported.
@@ -37,6 +38,7 @@ As checked on 2026-05-16:
 - The DNV downloads and release-notes pages list KFX 7.2 as the latest KFX-EXSIM release dated 31-Mar-2026. Treat this as companion-product upgrade watch only; do not assume KFX 7.2 behavior is present in a Phast/Safeti 8.7 workflow.
 - The DNV public user-manuals page currently lists Phast, Safeti, and Safeti Study Manager manuals for version 9.3, dated May 2026. Use these only as later-version context unless a statement is independently confirmed in 8.7 release notes, installed 8.7 help, installed 8.7 documentation, or 8.7 software-native exports.
 - The DNV downloads page describes the 9.1+ access-key licensing system. For 8.7-and-earlier work, preserve the previous license workflow and keep license files, dongle/network setup, and activation data outside public skills and reports.
+- The DNV license-support page states that Phast/Safeti 9.0 and earlier use the older standalone, dongle, or network licence system. For an 8.7 project, report only the licence type or availability status when relevant; do not collect, expose, or commit licence files, environment-variable values, dongle identifiers, server paths, or activation evidence.
 - The DNV FAQ states that Phast is consequence modelling software, whereas Safeti is consequence and risk modelling software. Do not describe a Phast-only run as Safeti QRA.
 - The DNV FAQ lists Phast uses such as HAZOP/HAZID/PHA/LOPA consequence support, emergency planning, facility siting/layout optimisation, hazardous area classification, regulatory safety reports, and vent/flare design. Treat these as consequence-analysis applications unless Safeti risk integration is actually performed.
 - The DNV FAQ lists Safeti uses such as FERA, OBRA, QRA, risk-based design, cost-benefit analysis, and sensitivity analysis. Treat fatality individual and societal risk as the core QRA output unless the project explicitly adds environmental, asset, or financial risk.
